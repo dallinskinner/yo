@@ -160,6 +160,5 @@ juju = sprites.create(img`
     ................
     `, SpriteKind.Player)
 juju.setPosition(10, 102)
-controller.moveSprite(juju, 100, 0)
 scene.cameraFollowSprite(juju)
 music.playMelody("C5 - C5 C5 G A E G ", 229)
